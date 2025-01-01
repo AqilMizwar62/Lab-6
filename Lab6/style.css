@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#timer {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#answers {
+    list-style: none;
+    padding: 0;
+}
+
+#answers li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#answers li:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+#answers li:active {
+    transform: scale(0.95);
+}
+
+#feedback {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#next-btn, #prev-btn {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #1475dc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-btn:disabled, #prev-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('sejarah.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: #000000;
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 123, 255, 0.8); 
+    color: white;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+}
